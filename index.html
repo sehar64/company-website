@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Company Name</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      background-color: black;
+      color: antiquewhite;
+      display: flex;
+      flex-direction: column;
+    }
+    .section-header {
+      color: antiquewhite;
+      text-align: center;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 10px 0;
+      margin-top: auto;
+    }
+    .project-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+    .nav-link {
+      color: white;
+    }
+    .nav-link:hover, .nav-link.active {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ProConstruct</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <h2 class="section-header">Welcome to Our Company</h2>
+    <img src="https://tse2.mm.bing.net/th?id=OIP.DCXXMCqWFSKKPIRAxxIB9wHaEX&pid=Api&P=0&h=220" class="img-fluid project-img rounded shadow" alt="Company Logo">
+    <p class="text-center">We provide exceptional services to help your business grow.</p>
+
+    <h2 class="section-header">Our Company Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <img src="https://www.arabianbusiness.com/cloud/2021/09/14/uxII71io-dubai-construction-cranes-10.jpg" class="img-fluid rounded shadow" alt="Project 1">
+      </div>
+      <div class="col-md-6">
+        <img src="https://costar.brightspotcdn.com/dims4/default/21ff4ea/2147483647/strip/true/crop/2100x1400+0+0/resize/2100x1400!/quality/100/?url=http:%2F%2Fcostar-brightspot.s3.amazonaws.com%2Fd4%2F78%2Fd125cbad40ecb74c8fa910e66c8b%2Fconstruction.jpg" class="img-fluid rounded shadow" alt="Project 2">
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <p class="mb-0">&copy; 2025 Sehar | All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS (optional if toggler needed) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
